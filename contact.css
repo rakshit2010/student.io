@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #333;
+    width: 100%;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul li {
+    float: left;
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    background-color: #575757;
+    color: white;
+}
+
+.logout-button {
+    background-color: #dc3545;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.logout-button:hover {
+    background-color: #c82333;
+}
+.contact-container {
+    max-width: 850px;
+    margin: 20px auto;
+    margin-top: 40px;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+#contactForm {
+    margin-bottom: 15px;
+}
+
+#contactForm label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#contactForm input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#contactForm textarea{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 100px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#thankYouMessage {
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.social-media{
+    position: fixed;
+    top: 40%;
+}
+
+.social-media ul {
+    list-style-type: none;
+}
+
+.social-media li {
+    margin-bottom: 10px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.social-media a:hover {
+    color: #007bff;
+}
+
+.social-media img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.instagram{
+    height: 41px;
+    width: 41px;
+    margin-bottom: 3px;
+}
+.linkedin{
+    height: 34px;
+    width: 34px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+}
+.X{
+    height: 33px;
+    width: 33px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+}
+.facebook{
+    height: 33px;
+    width: 33px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+}

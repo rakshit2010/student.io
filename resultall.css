@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #333;
+    width: 100%;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul li {
+    float: left;
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    background-color: #575757;
+    color: white;
+}
+
+.logout-button {
+    background-color: #dc3545;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.logout-button:hover {
+    background-color: #c82333;
+}
+
+.homepage-container {
+    width: 450px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.overview, .contact-info, .updates {
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px auto;
+    width: 80%; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar li {
+    position: relative;
+  }
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+}
+
+.result-options {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.result-options li {
+    margin: 10px 0;
+}
+
+.result-options a {
+    text-decoration: none;
+    color: #007BFF;
+    padding: 10px 15px;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.result-options a:hover {
+    background-color: #007BFF;
+    color: white;
+}

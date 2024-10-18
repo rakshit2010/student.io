@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #333;
+    width: 100%;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul li {
+    float: left;
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    background-color: #575757;
+    color: white;
+}
+
+.logout-button {
+    background-color: #dc3545;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.logout-button:hover {
+    background-color: #c82333;
+}
+
+.profile-container {
+    max-width: 800px; 
+    margin: 20px auto; 
+    margin-top: 18px;
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    background-color: #f9f9f9; 
+}
+
+.profile-container h1, h2 {
+    color: #333; 
+}
+
+.profile-container ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.profile-container li {
+    margin: 10px 0; 
+}
+
+.button {
+    display: inline-block; 
+    padding: 10px 15px; 
+    background-color: #007bff; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    margin-top: 20px; 
+    border: none;
+}
+
+.button:hover {
+    background-color: #0056b3; 
+}
+
+.profile-pic-container {
+    text-align:justify;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 3px solid black; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    transition: border-color 0s ease;
+}
+.profile-pic:hover{
+    border: 3px solid #0056b3;
+}
